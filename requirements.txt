@@ -1,0 +1,11 @@
+1)Create/Register user 
+2)User can upload files,
+3)The files will be sharded into blocks using multichain
+4) look at other users requesting their files, 
+approving/rejecting/revoking access
+5) If the other user is approved, 
+they can get the file from multichain...
+
+I see good uses implementing MongoDB cluster 
+in atlas, using gun.js as well as next.js so 
+I'll try to use them in the project
