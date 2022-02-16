@@ -134,12 +134,6 @@
               Request File
             </a>
           </li>
-          <li>
-            <a href="viewrequests" class="nav-link text-white">
-              <i class="fas fa-arrow-left"></i>      
-                View Requests
-            </a>
-          </li>
         </ul>
         <hr />
         <div class="dropdown">
@@ -168,10 +162,13 @@
       <!-- page content goes here -->
 
       <div>
-        <h1>Upload your files</h1>
-        <form action="/action_upload" method="post">
-          <input type="file" id="myFile" name="filename">
-          <input type="submit">
+        <h1>Upload file to IPFS</h1>
+        <form action="/uploadFile" method="POST" enctype="multipart/form-data">
+            <br><br>
+            <label>Upload File</label>
+            <input type="file" name="file">
+            <br><br>
+            <input type="submit" value="Submit">
         </form>
       </div>
       
